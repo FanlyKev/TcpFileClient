@@ -24,7 +24,7 @@ private:
     QPushButton      *quitButton;
     QPushButton      *openButton;
     QDialogButtonBox *buttonBox;
-    QTcpSocket       tcpClient; //TCP
+    QTcpSocket       tcpClient;
 
     qint64           totalBytes;
     qint64           bytesWritten;
